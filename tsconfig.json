@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "pretty": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "importHelpers": false,
+    "target": "es6",
+    "outDir": "dist",
+    "lib": [
+      "es6",
+      "dom",
+      "es2019"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
